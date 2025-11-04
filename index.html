@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Responsive full website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/svg-with-js.min.css" integrity="sha512-KP5ksKgJgqZoPDFb3uoE2KZiyr7n3xt+Sp6WGuCVBracF4/ccuZ/uKzuTyGL0G2dzInIs0Oz6I4nX643bIeVDg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+   
+     <header class="sticky-top"> 
+        <nav class="navbar">
+            <div class="logo">YarnItUp</div>
+            <ul class="nav-links" id="navLinks">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#shop">Shop</a></li>
+              <li><a href="#product">Products</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+              
+            </ul>
+            
+            <div class="menu-toggle" id="menuToggle">&#9776;</div>
+          </nav>
+        </header>
+      
+        <script>
+          const menuToggle = document.getElementById("menuToggle");
+          const navLinks = document.getElementById("navLinks");
+      
+          menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+          });
+        </script>
+    </header>
+    
+    <section class="main-home">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="main-text">
+            
+              <h1>Made with love and <br>a little bit of yarn</h1>
+              <p>There's Nothing like trend</p>
+              <form class="d-flex">
+  
+                <button class="btn btn-primary" type="button">Buy Now</button>
+            </form>
+  
+          </div>
+          </div>
+        </div>
+      </div>
+        
+    </section>
+
+
+     <!-- features section -->
+     <section class="features-section">
+        <div class="feature-box">
+          <div class="icon">📅</div>
+          <h3>Book An Appointment</h3>
+          <p>Ready to take the next step? Book an appointment with us today! Get expert advice and solutions.</p>
+        </div>
+      
+        <div class="feature-box">
+          <div class="icon">🛍️</div>
+          <h3>Pick Up From Store</h3>
+          <p>Choose in-store pickup and pick up your order at your convenience.</p>
+        </div>
+      
+        <div class="feature-box">
+          <div class="icon">🎁</div>
+          <h3>Special Packaging</h3>
+          <p>Give the gift of love and luxury! Our beautifully packaged products make perfect presents.</p>
+        </div>
+      
+        <div class="feature-box">
+          <div class="icon">🌐</div>
+          <h3>Free Global Returns</h3>
+          <p>We provide the return policy for every customer who needs our help.</p>
+        </div>
+      </section>
+      
+    
+
+    <!--trending.products.section-->
+    <section class="trending-products" id="shop" >
+        <h2>Our Trending Chrochet</h2>
+        <br><br>
+        <div class="product-container">
+            <div class="product">
+                <img src="photoss/crochet_single_item.jpeg" alt="Half Running set">
+                
+            </div>
+            
+        
+        
+            <div class="product">
+                <img src="photoss/crochet_flower.jpeg" alt="Half Running set">
+                
+            </div>
+        
+        
+            <div class="product">
+                <img src="photoss/crochet_hat.jpeg" alt="Half Running set">
+                
+            </div>
+         
+            <div class="product">
+                <img src="photoss/crochet_scarf.jpeg" alt="Half Running set">
+                
+            </div>
+             
+        </section>
+            
+           
+        <!--<div class="product-container">
+            <div class="product">
+                <img src="photoss/crochet_bag (1).jpeg" alt="Half Running set">
+                <h3>half running set</h3>
+                <p class="price">$99 - $129</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_hat (1).jpeg" alt="Half Running set">
+                <h3>half running set</h3>
+                <p class="price">$99 - $129</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_flower (1).jpeg" alt="Half Running set">
+                <h3>half running set</h3>
+                <p class="price">$99 - $129</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_bag (2).jpeg" alt="Half Running set">
+                <h3>half running set</h3>
+                <p class="price">$99 - $129</p>
+            </div>
+            
+    </div>
+     </section> -->
+     <!--client-review-section-->
+
+     <!--<section class="client reviews">
+        <div class="reviews">
+            <h3>Client Reviews</h3>
+            <img src="images/jack.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cumque enim eveniet dolorem reiciendis. Ipsa officia voluptate eius quasi ipsam, consectetur pariatur nihil minima, nostrum optio, repudiandae impedit provident repellat?</p>
+            <h2>mark jevenue</h2>
+            <p>ceo of addle</p>
+        </div>
+
+        
+     </section>-->
+
+
+     <section class="hero-section" id="about">
+        <div class="hero-content">
+          <h1>HAPPINESS IS HANDMADE, ONE STITCH AT A TIME</h1>
+          <p>
+            Crochet is a creative and relaxing craft that involves making fabric by looping yarn with a single hook.
+            It is an art form that allows people to create a variety of items such as clothing, blankets, and decorations.
+            With just a hook and some yarn, crafters can make beautiful designs using simple stitches like the chain,
+            single crochet, and double crochet. Crochet is more than just a hobby—it helps people express their creativity,
+            reduce stress, and even connect with others through shared projects.
+            Many also use crochet to make eco-friendly, reusable items, showing that this traditional skill still has
+            a place in modern life. Overall, crochet combines art, patience, and passion to turn simple materials
+            into something meaningful and beautiful.
+          </p>
+          <button class="shop-btn">SHOP COLLECTION</button>
+        </div>
+      
+        <div class="hero-image">
+          <img src="photoss/crochet1.jpg" alt="Colorful yarn balls">
+        </div>
+      </section>
+      
+     <!-- new arrivals -->
+     <!-- <section class="new-arrivals">
+    <div class="section-header">
+      <h2>Our New Arrivals</h2>
+      <a href="#" class="view-all">View All Products</a>
+    </div>
+    <div class="product-carousel">
+      <button class="carousel-btn left">&#8592;</button>
+
+      <div class="products">
+        <div class="product">
+          <img src="images/women1.png" alt="Dark Florish Onepiece" />
+          <h3>Dark Florish Onepiece</h3>
+          <p>$95.00</p>
+        </div>
+        <div class="product">
+          <img src="images/mene1.png" alt="Baggy jeans" />
+          <h3>Baggy Shirt</h3>
+          <p class="add-to-cart">Add to Cart</p>
+        </div>
+        <div class="product">
+          <img src="images/women2.png" alt="Cute-maxi dress" />
+          <h3>Cotton Off-White Shirt</h3>
+          <p>$65.00</p>
+        </div>
+        <div class="product">
+          <img src="images/mene2.png" alt="Cotton Off-White Shirt" />
+          <h3>Crop Sweater</h3>
+          <p>$50.00</p>
+        </div>
+         <div class="product">
+          <img src="images/mene2.png" alt="Crop Sweater" />
+          <h3>Crop Sweater</h3>
+          <p>$50.00</p>
+        </div>
+      </div>
+     <button class="carousel-btn right">&#8594;</button>
+    </div>
+  </section>
+-->
+    
+ 
+    <!-- new collection -->
+    <section class="collections-section" id="product">
+        <h1>Our New Arrivals</h1>
+        <div class="product-container">
+            <div class="product">
+                <img src="photoss/crochet_bag (1).jpeg" alt="Half Running set">
+                <h3>Bag </h3>
+                <p class="price">$50</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_hat (1).jpeg" alt="Half Running set">
+                <h3>Hat</h3>
+                <p class="price">$129</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_flower (1).jpeg" alt="Half Running set">
+                <h3>Flower</h3>
+                <p class="price">$40</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_bag (2).jpeg" alt="Half Running set">
+                <h3>Bag</h3>
+                <p class="price">$60</p>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="product-container">
+            <div class="product">
+                <img src="photoss/crochet_dress.jpeg" alt="Half Running set">
+                <h3>Dress</h3>
+                <p class="price">$130</p>
+            </div>
+              <div class="product">
+                <img src="photoss/blanket_crochet_pattern.jpeg" alt="Half Running set">
+                <h3>Blanket</h3>
+                <p class="price">$65</p>
+            </div>
+              <div class="product">
+                <img src="photoss/simple_crochet_tops.jpeg" alt="Half Running set">
+                <h3>Top</h3>
+                <p class="price">$85</p>
+            </div>
+              <div class="product">
+                <img src="photoss/small_crocheted_mini_bag.jpeg" alt="Half Running set">
+                <h3>Bag</h3>
+                <p class="price">$75</p>
+            </div>
+        </div>
+       <br><br>
+
+        <div class="product-container">
+            <div class="product">
+                <img src="photoss/crochet_flower_blanket.jpeg" alt="Half Running set">
+                <h3>Flower blanket</h3>
+                <p class="price">$132</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_sweater.jpeg" alt="Half Running set">
+                <h3>Sweater</h3>
+                <p class="price">$100</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_scrunchie.jpeg" alt="Half Running set">
+                <h3>Scrunchies</h3>
+                <p class="price">$20</p>
+            </div>
+              <div class="product">
+                <img src="photoss/crochet_blanket.jpeg" alt="Half Running set">
+                <h3>Blanket</h3>
+                <p class="price">$80</p>
+            </div>
+        </div>
+
+
+
+     </section> 
+
+       <!--Service-section-->
+       <h1>Our Services</h1>
+       <section class="info-section" id="service">
+        
+        <div class="info-box">
+          <div class="icon">🚚</div>
+          <h3>Fast & Free Shipping</h3>
+          <p>We’ve got you covered! Shop now and get your orders delivered in no time!</p>
+        </div>
+      
+        <div class="info-box">
+          <div class="icon">🛒</div>
+          <h3>Easy to Shop</h3>
+          <p>Get started with our quick-start guide and discover the easiest way to shop online.</p>
+        </div>
+      
+        <div class="info-box">
+          <div class="icon">📞</div>
+          <h3>24/7 Support</h3>
+          <p>No matter the time zone, we’ve got you covered! Our 24/7 support team is here to help.</p>
+        </div>
+      
+        <div class="info-box">
+          <div class="icon">🔁</div>
+          <h3>Hassle Free Returns</h3>
+          <p>Display a prominent badge next to the price. Include a brief summary of the return policy.</p>
+        </div>
+      </section>
+      
+     <!--update-news-section-->
+     
+       <!-- <div class="up center-text">
+            <h2>New Update</h2>
+        </div>
+
+        <div class="update cart">
+            <div class="cart">
+                <img src="images/hom.jpeg" alt="">
+                <h4>lets start bring sale on this weekends</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nostrum asperiores maxime ab veniam distinctio, dolorum odio deserunt quibusdam magni in unde explicabo quod doloremque aliquid similique. Laborum, quis magnam.</p>
+                <h6>continue reading</h6>
+            </div>
+             <div class="cart">
+                <img src="images/win.png" alt="">
+                <h4>lets start bring sale on this weekends</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nostrum asperiores maxime ab veniam distinctio, dolorum odio deserunt quibusdam magni in unde explicabo quod doloremque aliquid similique. Laborum, quis magnam.</p>
+                <h6>continue reading</h6>
+            </div>
+             <div class="cart">
+                <img src="images/win.png" alt="">
+                <h4>lets start bring sale on this weekends</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nostrum asperiores maxime ab veniam distinctio, dolorum odio deserunt quibusdam magni in unde explicabo quod doloremque aliquid similique. Laborum, quis magnam.</p>
+                <h6>continue reading</h6>
+            </div>
+        </div>
+         
+          
+     </section>-->
+
+     <!--contact.section-->
+     <section class="contact" id="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <h1>YarnItUp</h1>
+
+                <p>wonder street<br> near st.teresa </p>
+                <p>8967548728</p>
+                <p>yarnitup@gmail.com</p>
+                <div class="social-icon">
+                    <i class="bi bi-instagram"></i> <i class="bi bi-twitter"></i> <i class="bi bi-whatsapp"></i> <i class="bi bi-facebook"></i>
+                </div>
+            </div>
+            <div class="second-info">
+                <h4>support</h4>
+                <p>contact us</p>
+                <p>About page</p>
+                <p>size guide</p>
+                <p>shopping & returns</p>
+                <p>privacy</p>
+            </div>
+            <div class="third-info">
+                <h4>shop</h4>
+                  <p>customes</p>
+                  <p>classes</p>
+                  <p>kids shopping</p>
+                  <p>Discount</p>
+            </div>
+            <div class="fourth-info">
+                <h4>company</h4>
+                  <p>About</p>
+                  <p>Blog</p>
+                  <p>Affiliate</p>
+                  <p>Login</p>
+            </div>
+            <div class="five">
+                <h4>subscribe</h4>
+                <p>Stay tuned for the new arrivals</p>
+            </div>
+        </div>
+     </section>
+
+     <div class="end-text">
+        <p>copyright @2025. All Rights Reserved.Designed by Akarnika.</p>
+     </div>
+
+   <!-- <div class="products">
+        <div class="row">
+            <img src="images/jac.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>
+    </div>
+    
+    
+        <div class="row">
+            <img src="images/jack.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>
+    
+    
+    
+        <div class="row">
+            <img src="images/jac.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <img src="images/jac.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <img src="images/jac.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <img src="images/jac.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <img src="images/jac.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <img src="images/jac.jpeg" alt="">
+            <div class="product-text">
+                <h5>sale</h5>
+            </div>
+            <div class="heart-icon">
+                <i class='bxr  bx-heart'  ></i> 
+            </div>
+            <div class="ratting">
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+                <i class='bxr  bx-star'  ></i> 
+            </div>
+            <div class="price">
+                <h4>Half Running Set</h4>
+                <p>$99 - $129</p>
+            </div>
+        </div>-->
+    
+
+    
+
+    <script src="java.js"></script>
+    
+</body>
+</html>
